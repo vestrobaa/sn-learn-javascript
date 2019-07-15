@@ -1,12 +1,12 @@
 # Welcome to Learn JavaScript on the Now Platform!
 
-This repository contains examples used in the video series in folders corresponding to the lessons. You can find the video series on the ServiceNow Developer YouTube channel at (URL COMING SOON).
+This repository contains examples used in the video series in folders corresponding to the lessons. You can find the video series on the ServiceNow Developer YouTube channel at the **Learn JavaScript on the Now Platform** playlist. The code is on [GitHub](http://bit.ly/sn-js).
 
 Scripts use the naming structure **L(lesson#)S(script#).js**. Example, L09S01.js refers to Lesson 9, script example 1. Solutions to lab exercises can also be found in the *Lab Solutions* folder.
 
 # Helpful resources mentioned in this series
 
-* [Codecademy.com (JavaScript)](https://www.codecademy.com/catalog/language/javascript)
+* [Codecademy.com (JavaScript)](https://www.codecademy.com/catalog/language/javascript) - Philip: **Not free**
 * [W3Schools.com (Javascript)](https://www.w3schools.com/js/default.asp)
 * [ServiceNow Developer Program](https://developer.servicenow.com)
 * [Scripting in ServiceNow Fundamentals](https://www.servicenow.com/services/training-and-certification/scripting-in-servicenow-training.html)
