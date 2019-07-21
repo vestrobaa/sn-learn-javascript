@@ -7,8 +7,9 @@
  */
 function getDisplayName(table, maxRows) {
 
-  if (maxRows == null) {
-    maxRows = 10;
+  if ((maxRows == null) ||
+   (maxRows && !Number.isInteger(maxRows))){
+      maxRows = 10;
   }
 
   var tableGr = new GlideRecord(table);
@@ -28,6 +29,6 @@ function printArray(data) {
   });
 }
 
-printArray(getDisplayName('incident', 3));
+printArray(getDisplayName('incident', 'three'));
 printArray(getDisplayName('sys_user_group', 4));
 printArray(getDisplayName('sys_user'));
